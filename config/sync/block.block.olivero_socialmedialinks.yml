@@ -1,0 +1,165 @@
+uuid: 7a2ce1ad-9930-4347-8264-707350786f41
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - olivero
+id: olivero_socialmedialinks
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  label_display: visible
+  provider: social_media_links
+  platforms:
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-10'
+    youtube:
+      value: ''
+      description: ''
+      weight: '-9'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-8'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-7'
+    email:
+      value: ''
+      description: ''
+      weight: '-6'
+    goodreads:
+      value: ''
+      description: ''
+      weight: '-5'
+    behance:
+      value: ''
+      description: ''
+      weight: '-4'
+    twitter:
+      value: ''
+      description: ''
+      weight: '-3'
+    instagram:
+      value: ''
+      description: Instagram
+      weight: '-2'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-1'
+    drupal:
+      value: ''
+      description: ''
+      weight: '0'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '1'
+    mastodon:
+      value: ''
+      description: ''
+      weight: '2'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '3'
+    patreon:
+      value: ''
+      description: ''
+      weight: '4'
+    gitlab:
+      value: ''
+      description: ''
+      weight: '5'
+    github:
+      value: ''
+      description: ''
+      weight: '6'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '7'
+    telegram:
+      value: ''
+      description: ''
+      weight: '8'
+    flickr:
+      value: ''
+      description: ''
+      weight: '9'
+    amazon:
+      value: ''
+      description: ''
+      weight: '10'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '11'
+    rss:
+      value: ''
+      description: ''
+      weight: '12'
+    contact:
+      value: ''
+      description: ''
+      weight: '13'
+    googleplay:
+      value: ''
+      description: ''
+      weight: '14'
+    xing:
+      value: ''
+      description: ''
+      weight: '15'
+    tiktok:
+      value: ''
+      description: ''
+      weight: '16'
+    meetup:
+      value: ''
+      description: ''
+      weight: '17'
+    glassdoor:
+      value: ''
+      description: ''
+      weight: '18'
+    website:
+      value: ''
+      description: ''
+      weight: '19'
+    facebook:
+      value: ''
+      description: ''
+      weight: '20'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '21'
+    whatsapp:
+      value: ''
+      description: ''
+      weight: '22'
+  appearance:
+    orientation: h
+    show_name: 1
+    suggestion: ''
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

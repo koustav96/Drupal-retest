@@ -1,0 +1,25 @@
+uuid: 2e9d44ca-84e4-4639-bc97-7ea23a74cac1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.category-block
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_categoryblock_2
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'system_menu_block:category-block'
+settings:
+  id: 'system_menu_block:category-block'
+  label: 'Recent Category'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

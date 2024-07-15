@@ -1,0 +1,8 @@
+uuid: 4b95ae4f-168d-4c11-9723-48e592ab6521
+langcode: en
+status: true
+dependencies: {  }
+id: category-block
+label: 'Category Block'
+description: ''
+locked: false
