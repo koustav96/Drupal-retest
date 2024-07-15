@@ -1,0 +1,29 @@
+uuid: 5d54fc88-60bf-4a94-bf2d-585b5b951c67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner_image
+    - node.type.newstype
+  module:
+    - entity_reference_revisions
+id: node.newstype.field_banner_image
+field_name: field_banner_image
+entity_type: node
+bundle: newstype
+label: 'Banner Image'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      banner_image:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

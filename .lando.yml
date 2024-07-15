@@ -1,0 +1,6 @@
+name: test2
+recipe: drupal10
+config:
+  webroot: web
+  via: nginx
+  drush: ture

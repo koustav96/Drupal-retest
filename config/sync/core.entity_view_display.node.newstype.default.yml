@@ -1,0 +1,70 @@
+uuid: d38ceb19-e663-4205-871c-bb1ac6e72de7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.newstype.body
+    - field.field.node.newstype.field_banner_image
+    - field.field.node.newstype.field_category
+    - field.field.node.newstype.field_summary
+    - field.field.node.newstype.field_thumbnail_image
+    - image.style.thumbnail_image
+    - node.type.newstype
+  module:
+    - entity_reference_revisions
+    - image
+    - text
+    - user
+id: node.newstype.default
+targetEntityType: node
+bundle: newstype
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_banner_image:
+    type: entity_reference_revisions_entity_view
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_summary:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_thumbnail_image:
+    type: image
+    label: above
+    settings:
+      image_link: content
+      image_style: thumbnail_image
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

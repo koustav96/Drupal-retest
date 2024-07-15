@@ -1,0 +1,16 @@
+uuid: f6d6c593-b4b3-4892-aa81-400ed9ca8da1
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'search content'

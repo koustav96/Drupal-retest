@@ -1,0 +1,29 @@
+uuid: ba29a576-fa89-4143-9167-c94380f9611f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_5_recent_news
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__top_5_recent_news_block_2
+theme: olivero
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:top_5_recent_news-block_2'
+settings:
+  id: 'views_block:top_5_recent_news-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home-page

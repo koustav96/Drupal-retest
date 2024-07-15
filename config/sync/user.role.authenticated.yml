@@ -1,0 +1,44 @@
+uuid: e9af3f7f-55ee-4e48-8d7d-55380eba1c75
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.webform_default
+    - node.type.newstype
+    - taxonomy.vocabulary.newstype
+  module:
+    - file
+    - filter
+    - node
+    - search
+    - taxonomy
+    - toolbar
+_core:
+  default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create newstype content'
+  - 'create terms in newstype'
+  - 'delete any file'
+  - 'delete any newstype content'
+  - 'delete newstype revisions'
+  - 'delete own files'
+  - 'delete own newstype content'
+  - 'delete term revisions in newstype'
+  - 'delete terms in newstype'
+  - 'edit any newstype content'
+  - 'edit own newstype content'
+  - 'edit terms in newstype'
+  - 'revert newstype revisions'
+  - 'revert term revisions in newstype'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'use text format webform_default'
+  - 'view newstype revisions'
+  - 'view term revisions in newstype'

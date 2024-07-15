@@ -1,0 +1,26 @@
+uuid: 047fe7f4-68b4-434a-9a94-554baea8d9db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.banner_image.field_banner_image
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.banner_image
+  module:
+    - image
+id: paragraph.banner_image.default
+targetEntityType: paragraph
+bundle: banner_image
+mode: default
+content:
+  field_banner_image:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

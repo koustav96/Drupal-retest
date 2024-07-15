@@ -1,0 +1,29 @@
+uuid: f5b4a997-bd40-4541-9613-4f38baf60f1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.newstype
+    - taxonomy.vocabulary.newstype
+  module:
+    - node
+    - system
+    - taxonomy
+id: content_editor
+label: 'Content Editor'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content'
+  - 'create newstype content'
+  - 'create terms in newstype'
+  - 'delete any newstype content'
+  - 'delete newstype revisions'
+  - 'delete own newstype content'
+  - 'delete term revisions in newstype'
+  - 'delete terms in newstype'
+  - 'edit any newstype content'
+  - 'edit own newstype content'
+  - 'edit terms in newstype'
+  - 'revert term revisions in newstype'
+  - 'view term revisions in newstype'

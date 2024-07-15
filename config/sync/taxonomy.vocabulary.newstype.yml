@@ -1,0 +1,9 @@
+uuid: 6eee8796-1894-4123-86b1-1fe93b358a1f
+langcode: en
+status: true
+dependencies: {  }
+name: NewsType
+vid: newstype
+description: null
+weight: 0
+new_revision: false
