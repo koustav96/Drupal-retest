@@ -1,0 +1,29 @@
+uuid: 4cf81a2a-fc4b-43e2-9dc5-a266efbd1a6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.category-block
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_categoryblock
+theme: olivero
+region: content
+weight: -6
+provider: null
+plugin: 'system_menu_block:category-block'
+settings:
+  id: 'system_menu_block:category-block'
+  label: 'Category Block'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home-page

@@ -1,0 +1,27 @@
+uuid: a033ba93-284c-4c12-81b4-0ef087b1c06d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.banner_image.field_banner_image
+    - image.style.banner_image
+    - paragraphs.paragraphs_type.banner_image
+  module:
+    - image
+id: paragraph.banner_image.default
+targetEntityType: paragraph
+bundle: banner_image
+mode: default
+content:
+  field_banner_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: banner_image
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
